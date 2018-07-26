@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title><%= siteTitle %> - <%= pageTitle %></title>
+	<% include ../partials/head %>
+	<style >
+		*{border-radius: 0px !important}
+	</style>
+</head>
+<body>
+  <div class="header">
+    <h3>BackEnd</h3>
+    <div class="search">
+      <input name= "searchField" type="text" value="enter GitHub Name"></input>
+      <p class="search">serach</p>
+    </div>
+    <form action="/logout" method="get">
+      <button  class="header-submit" type="submit">Log Out</button>
+    </form>
+  </div>
+</body>

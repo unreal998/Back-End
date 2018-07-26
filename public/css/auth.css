@@ -1,0 +1,45 @@
+#screen{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  color : black;
+}
+.Form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 20%;
+}
+form div{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.Form input{
+  margin-bottom: 2%;
+}
+.Form label{
+  margin-bottom: 1%;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons form a{
+  padding: 2%;
+  width: 100%;
+}
+.buttons form{
+  margin-top: 2%;
+  width: 20%;
+  display: flex;
+
+}

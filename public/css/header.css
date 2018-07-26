@@ -1,0 +1,27 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #acacac;
+  padding: 1%;
+}
+.header form{
+  margin: 0;
+}
+.header-submit{
+  border: none;
+  background-color: #acacac;
+  cursor: pointer;
+  font-size: 110%;
+}
+.header-submit:focus{
+  outline: none;
+}
+p{
+  cursor: pointer;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+}

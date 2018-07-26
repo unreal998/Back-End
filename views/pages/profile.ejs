@@ -1,0 +1,22 @@
+<% include ../partials/header %>
+<div id="body">
+  <div id="userInfo">
+    <h2><%= name %> <%= lastName%></h2>
+    <h3><%= email %></h3>
+    <img src= <%= img %> alt=""></img>
+    <form enctype="multipart/form-data" method="post" action="/addImage">
+      <input type="file" name="avatar"></input>
+      <button type="submit">save</button>
+    </form>
+  </div>
+  <div>
+    <form id="javascript_form">
+      <input type="text" name="subject" placeholder="Subject" />
+      <textarea name="text" placeholder="Message"></textarea>
+      <input type="submit" id="js_send" value="Send" />
+    </form>
+  </div>
+</div>
+
+
+<% include ../partials/footer %>
